@@ -1,0 +1,43 @@
+<h1> Lista</h1>
+<div class=" container">
+
+    <br />
+    <div>
+        <div class="form-group">
+            <label for="detalleDistincion">Detalle Distincion</label>
+            <input [(ngModel)]="dpermisos.detalleDistincion" type="text" class="form-control" id="detalleDistincion"
+                placeholder="Ingresar nombre">
+
+        </div>
+        <div class="form-group">
+            <label for="institucion">Institucion</label>
+            <input [(ngModel)]="dpermisos.institucion" type="text" class="form-control" id="institucion"
+                placeholder="Ingresar una institucion">
+
+        </div>
+        <div class="form-group">
+            <label for="pais">Pais</label>
+            <input [(ngModel)]="dpermisos.pais" type="text" class="form-control" id="pais"
+                placeholder="Ingresar una pais">
+
+        </div>
+        <div class="form-group">
+            <label for="fecha">Fecha</label>
+            <input [(ngModel)]="dpermisos.fecha" type="date" class="form-control" id="fecha"
+                placeholder="Ingresar una fecha">
+
+        </div>
+        <div class="form-group">
+            <label for="resolucion">Resolucion</label>
+            <input [(ngModel)]="dpermisos.resolucion" type="text" class="form-control" id="resolucion"
+                placeholder="Ingresar una resolucion">
+
+        </div>
+
+        <button style=" margin-right: 10px" type="submit" class="btn btn-outline-dark"></button>
+            
+        <button (click)="savePremios()" class="btn btn-primary">Guardar</button>
+
+
+    </div>
+</div>
